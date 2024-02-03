@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.1 on win32)" generated="2024-01-28T14:02:15.013855" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="C:\Users\Admin\PycharmProjects\robotTestDemo\testCases\test.robot">
+<test id="s1-t1" name="Test Simple" line="6">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-01-28T14:02:15.339989" level="INFO">Opening browser 'chrome' to base url 'https://robotframework.org'.</msg>
+<msg time="2024-01-28T14:02:17.039372" level="WARN">The chromedriver version (114.0.5735.90) detected in PATH at C:\Users\Admin\driverSelenium\chromedriver_win32\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.225); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry</msg>
+<msg time="2024-01-28T14:02:21.827330" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2024-01-28T14:02:21.827330" level="FAIL">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 120.0.6099.225 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00F8A813+48355]
+	(No symbol) [0x00F1C4B1]
+	(No symbol) [0x00E25358]
+	(No symbol) [0x00E461AC]
+	(No symbol) [0x00E41EF3]
+	(No symbol) [0x00E40579]
+	(No symbol) [0x00E70C55]
+	(No symbol) [0x00E7093C]
+	(No symbol) [0x00E6A536]
+	(No symbol) [0x00E482DC]
+	(No symbol) [0x00E493DD]
+	GetHandleVerifier [0x011EAABD+2539405]
+	GetHandleVerifier [0x0122A78F+2800735]
+	GetHandleVerifier [0x0122456C+2775612]
+	GetHandleVerifier [0x010151E0+616112]
+	(No symbol) [0x00F25F8C]
+	(No symbol) [0x00F22328]
+	(No symbol) [0x00F2240B]
+	(No symbol) [0x00F14FF7]
+	BaseThreadInitThunk [0x76C0FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C37C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C37C3E+238]
+</msg>
+<arg>https://robotframework.org</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2024-01-28T14:02:15.339411" elapsed="6.545797">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 120.0.6099.225 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00F8A813+48355]
+	(No symbol) [0x00F1C4B1]
+	(No symbol) [0x00E25358]
+	(No symbol) [0x00E461AC]
+	(No symbol) [0x00E41EF3]
+	(No symbol) [0x00E40579]
+	(No symbol) [0x00E70C55]
+	(No symbol) [0x00E7093C]
+	(No symbol) [0x00E6A536]
+	(No symbol) [0x00E482DC]
+	(No symbol) [0x00E493DD]
+	GetHandleVerifier [0x011EAABD+2539405]
+	GetHandleVerifier [0x0122A78F+2800735]
+	GetHandleVerifier [0x0122456C+2775612]
+	GetHandleVerifier [0x010151E0+616112]
+	(No symbol) [0x00F25F8C]
+	(No symbol) [0x00F22328]
+	(No symbol) [0x00F2240B]
+	(No symbol) [0x00F14FF7]
+	BaseThreadInitThunk [0x76C0FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C37C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C37C3E+238]
+</status>
+</kw>
+<status status="FAIL" start="2024-01-28T14:02:15.337970" elapsed="6.547238">SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 120.0.6099.225 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x00F8A813+48355]
+	(No symbol) [0x00F1C4B1]
+	(No symbol) [0x00E25358]
+	(No symbol) [0x00E461AC]
+	(No symbol) [0x00E41EF3]
+	(No symbol) [0x00E40579]
+	(No symbol) [0x00E70C55]
+	(No symbol) [0x00E7093C]
+	(No symbol) [0x00E6A536]
+	(No symbol) [0x00E482DC]
+	(No symbol) [0x00E493DD]
+	GetHandleVerifier [0x011EAABD+2539405]
+	GetHandleVerifier [0x0122A78F+2800735]
+	GetHandleVerifier [0x0122456C+2775612]
+	GetHandleVerifier [0x010151E0+616112]
+	(No symbol) [0x00F25F8C]
+	(No symbol) [0x00F22328]
+	(No symbol) [0x00F2240B]
+	(No symbol) [0x00F14FF7]
+	BaseThreadInitThunk [0x76C0FCC9+25]
+	RtlGetAppContainerNamedObjectPath [0x77C37C6E+286]
+	RtlGetAppContainerNamedObjectPath [0x77C37C3E+238]
+</status>
+</test>
+<status status="FAIL" start="2024-01-28T14:02:15.017035" elapsed="6.872293"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-01-28T14:02:17.039372" level="WARN">The chromedriver version (114.0.5735.90) detected in PATH at C:\Users\Admin\driverSelenium\chromedriver_win32\chromedriver.exe might not be compatible with the detected chrome version (120.0.6099.225); currently, chromedriver 120.0.6099.109 is recommended for chrome 120.*, so it is advised to delete the driver in PATH and retry</msg>
+</errors>
+</robot>
